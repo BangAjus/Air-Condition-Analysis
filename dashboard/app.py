@@ -4,8 +4,8 @@ import numpy as np
 
 st.title('Dashboard Analitik ')
 
-df = pd.read_csv('PRSA_Data.csv')
-normal_df = pd.read_csv('PRSA_Data_Normalized.csv')
+df = pd.read_csv('dashboard/PRSA_Data.csv')
+normal_df = pd.read_csv('dashboard/PRSA_Data_Normalized.csv')
 
 ##======================================================================================##
 ##================================First Data Visualization==============================##
